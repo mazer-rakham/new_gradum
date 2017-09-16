@@ -1,0 +1,2 @@
+[14-Sep-2017 14:40:49 UTC] PHP Warning:  require_once(/home/shawnflock/public_html/enac.tech/wp-load.php): failed to open stream: No such file or directory in /home/shawnflock/public_html/enac.tech/wp-blog-header.php on line 13
+[14-Sep-2017 14:40:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/shawnflock/public_html/enac.tech/wp-load.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/shawnflock/public_html/enac.tech/wp-blog-header.php on line 13
