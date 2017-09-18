@@ -79,7 +79,7 @@
                     <source src="<?php echo get_stylesheet_directory_uri(); ?>/videos/greensboro.webm" type="video/webm">
                     <source src="<?php echo get_stylesheet_directory_uri(); ?>/videos/greensboro.mp4" type="video/mp4">
                 </video>
-               
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gradum_logo_plain.png" id="main-gradum-logo" alt="Gradum Ante Greensboro">
                 <a href="#primary" class="roll-button button-slider">Learn More</a>
             </div>
 
