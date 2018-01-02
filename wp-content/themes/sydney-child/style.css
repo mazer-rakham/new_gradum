@@ -42,7 +42,9 @@ video#bgvid {
     height: auto;
     z-index: -100;
 }
-
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #2AD4FF;
+}
 .sydney-hero-area {
     background-color: black;
     position: relative;
@@ -70,12 +72,12 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.roll-button {
+.roll-button, .button, input[type="button"], input[type="reset"], input[type="submit"] {
     background-color: #2AD4FF;
     border: 1px solid #2AD4FF;
 }
 
-.roll-button:hover {
+.roll-button:hover,button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
     color: #2AD4FF;
 }
 
@@ -134,18 +136,18 @@ video#bgvid {
     border-color: #2AD4FF
 }
 
-#menu-header-menu li a:link {
+#menu-menu-1 li a:link {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 18px;
 }
 
-#menu-header-menu li a:link:hover {
+#menu-menu-1 li a:link:hover,#menu-menu-1 li a:visited:hover {
     color: #2AD4FF;
 }
 
-#menu-header-menu li a:link:before,
-#menu-header-menu li a:link:after {
+#menu-menu-1 li a:link:before,
+#menu-menu-1 li a:link:after {
     content: '';
     width: 100%;
     height: 3px;
@@ -158,38 +160,38 @@ video#bgvid {
     transition: transform 0.5s;
 }
 
-#menu-header-menu li a:link:before {
+#menu-menu-1 li a:link:before {
     right: 0;
     top: 0;
     -webkit-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
 }
 
-#menu-header-menu li a:link:after {
+#menu-menu-1 li a:link:after {
     left: 0;
     bottom: 0;
     -webkit-transform-origin: 0 50%;
     transform-origin: 0 50%;
 }
 
-#menu-header-menu li a:link:hover::before,
-#menu-header-menu li a:link:hover::after {
+#menu-menu-1 li a:link:hover::before,
+#menu-menu-1 li a:link:hover::after {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
 
-#menu-header-menu li a:link span {
+#menu-menu-1 li a:link span {
     position: relative;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
 }
 
-#menu-header-menu li a:link:hover span {
+#menu-menu-1 li a:link:hover span {
     color: transparent;
 }
 
-#menu-header-menu li a:link span::before,
-#menu-header-menu li a:link span::after {
+#menu-menu-1 li a:link span::before,
+#menu-menu-1 li a:link span::after {
     position: absolute;
     color: #fff;
     opacity: 0;
@@ -197,22 +199,22 @@ video#bgvid {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-#menu-header-menu li a:link span::before {
+#menu-menu-1 li a:link span::before {
     content: attr(data-letters-l);
     left: 0;
     -webkit-transform: translate3d(-5px, 0, 0);
     transform: translate3d(-5px, 0, 0);
 }
 
-#menu-header-menu li a:link span::after {
+#menu-menu-1 li a:link span::after {
     content: attr(data-letters-r);
     right: 0;
     -webkit-transform: translate3d(5px, 0, 0);
     transform: translate3d(5px, 0, 0);
 }
 
-#menu-header-menu li a:link:hover span::before,
-#menu-header-menu li a:link:hover span::after {
+#menu-menu-1 li a:link:hover span::before,
+#menu-menu-1 li a:link:hover span::after {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
